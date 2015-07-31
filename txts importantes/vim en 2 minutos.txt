@@ -1,0 +1,18 @@
+Vim rapido:
+modo normal "esc"
+modo insertar "i" "a" o "tecla insert"
+modo reemplazar "r"
+modo visual para seleccion con flechas inicio fin  "v"
+
+copiar seleccion y
+pegar seleccion p
+cortar seleccion c
+
+deshacer cambios esc-u
+rehacer cambios 
+
+:wq	Guarda el documento y cierra el editor
+:filenombre	Guarda el documento con el nombre especificado
+
+:split :sp subdivision horizontal
+:vspli :vsp subdivison vertical

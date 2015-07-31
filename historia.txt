@@ -1,0 +1,72 @@
+    1  ls
+    2  cd desktop
+    3  mkdir repositorio
+    4  cd repositorio
+    5  tree
+    6  cat
+    7  dig
+    8  exit
+    9  ls
+   10  cd desktop
+   11  cd repositorio
+   12  ls
+   13  ssh-keygen
+   14  ssh-keygen
+   15  ls
+   16  cd ~/.ssh
+   17  ls
+   18  cat id_rsa.sub
+   19  notepad id_rsa.sub
+   20* cat
+   21  cat id_rsa.pub
+   22  vim id_rsa.pub
+   23  clip < id_rsa.pub
+   24  cat id_rsa.pub
+   25  clip < id_rsa.pub
+   26  ls
+   27  cd..
+   28  cd ..
+   29  ls
+   30  cd template
+   31  cd ..
+   32  ls
+   33  cd Jos~
+   34  cd Jos??Alberto
+   35  cd José Alberto
+   36  cd JoséAlberto
+   37  cd desktop
+   38  cd template
+   39  git status
+   40  git -v
+   41  git --v
+   42  git --version
+   43  git init
+   44  ssh-add
+   45  ssh-add
+   46  ssh-add
+   47  cd ..
+   48  cd ..
+   49  ssh-add
+   50    help ssh
+   51  info ssh
+   52  ssh -add
+   53  eval 'ssh-agent -s'
+   54  ssh -add
+   55  cd desktop
+   56  ls
+   57  cd txts importantes
+   58  cd template
+   59  ssh-add
+   60  eval 'ssh-agent -s'
+   61  ssh-add
+   62  git status
+   63  eval $(ssh-agent)
+   64  ssh-add
+   65  history
+   66  clip < history
+   67  clip < $history
+   68  vim $history
+   69  cat history
+   70  cat ~/.bash_history
+   71  history
+   72  history > historia.txt

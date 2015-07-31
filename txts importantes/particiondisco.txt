@@ -1,0 +1,5 @@
+Partion disco para distribucion kubuntu:
+3 particiones:
+/	20 gigas max	ext4
+/home	tu espacio personal lo que sobra	ext4
+swap	4gb max	swap

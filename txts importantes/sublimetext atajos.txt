@@ -1,0 +1,24 @@
+ctrl+d buscar seleccion  por linea
+ctrl+shift+g ingresar etiqueta
+clic center seleccionar columnas
+clic +shift +j seleccionar para identacion
+ctrl+espace ayuda autocompletar
+ctrl+e autocompletado
+alt+f3 seleccionar en todo el texto una palabra
+esc para pasar a simple seleccion
+
+
+
+
+alt + . cerrar etiqueta
+ctrl +shift + A seleccionar  dentro etiqueta
+ctrl + kk eliminar desde el cursor hasta el final de la linea
+ctrl + shift + k eliminar linea
+ctrl+shift+M seleccionar dentro llaves
+f9 ordenar css
+ctrl+shift+D duplicar linea
+ctrl+j juntar lineas
+ctrl+d seleccionar word repetir ocurrencias^  alt+f3 seleccionar todas ocurrencias palabra
+ctrl+shift up o down subir linea
+ctrl+f2 goto guardar salto seleccion
+f2 saltar seleccion
