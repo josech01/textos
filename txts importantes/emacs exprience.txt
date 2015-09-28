@@ -1,0 +1,75 @@
+hola mundo emacs!!
+movimiento con flechas
+abrir en console emacs --font "DejaVu Sans Mono 14"
+C-w c cerrar ventana
+M-x buscar comando
+M-m modo holy  = space modo evil
+M-0 1 2 3 5 6 7 switch windows "4" sino funciona usamos M-m 4
+M-m T n o h cambiar o abrir temas
+M-m w . entrar en modo windows manipulation
+M-m f e d spacemacs.d
+c-x c-f abrir archivo  + enter (abre buffer de busqueda)
+c-x b abre buffers abiertos *scratch es por defecto
+c-x 1 cierra todos los buffers dejando el seleccionado
+c-x 0 cieera buffer actual
+c-x 2 abre buffer horizontal
+c-x 3 abre buffer verical
+c-x u reacer
+c-%  reemplazar
+c-x s save all buffers
+C-x C-s save actual buffer
+c-s   buscar
+alt-; comentar
+c-g cancelar
+M-x + "shell" abre terminal
+c-x k mata buffer
+c-shift backspace borra linea completa
+c-w copiar
+c-y pegar
+c-h general help
+c-h i info directori
+c-h t tutorial emacs
+mEmacs+enter regresa emacs manual
+
+mover conflechas hasta M-x y enter
+esta seccione es importante porque sino hay  una combinacion de comandos este es el unico lugar para aprender "using it is sort of like bringing up a command prompt depressed mehta expand"
+u retroceder anterior pagina
+l ir la ultima pagina
+regresar info directori
+c-s games (buscar la palabra game en emacs manual)
+*ahora si es buena oportunidad para probar las metha actions para correr comands
+abrir birthday
+*ahora queremos cerrar este buffer por que no deja editar nada vemos que el buffer esta en modo fundamental y el name a su ezquiera tiene asteriscos los cuales significa que el buffer no se guarda en el disco sino que permanece en ram.
+*matamos el buffer M-x kill luego tab para ver las opciones
+*pero tambien podemos usar los shortcuts primero cancelamos la orden con C-g luego C-x k hace lo mismo
+*probamos el siguiente game M-x black box similar a busca minas
+*ahora vamos a averiguar como jugarlo
+* C-h m abre ayuda para el modo actual
+C-h i
+C-h t tutorial.es emacs 
+
+video 2:
+M-x customize (editar caracteristicas emacs)
+*enviroment-frames-menubar mode  enter to toggle for change options and save.
+*enter en state for save 1
+*c-x c-f  ~/.emacs vemos que se escribio codido lisp despues del cambio.
+*hacemos los mismos pasos para desaparecer el tool bar.
+*AL cambiar el font el State esta en STANDAR no se va a guardar en .emacs por que reconocera como defecto si apretamos enter en State cambiamos Saved y ahora si se mostrara el codigo lisp.
+*Ahora si queremos cambiar los colores de emacs pues eso se hace con los temas.
+* en el imput search buscamos themes y ninguno nos lista los temas.
+* entonces buscamos con M-x customize-themes. seleccionamos uno
+*para ver los cambios abrimos .emacs y vemos que cambio los colores.
+*notamos que no cambia el background sigue en blanco se debe a configuraciones por defecto.
+*entramos M-x customize group - basic faces y vemos el default face y vemos el background y el foreground que esta sobrescribiendo al de los temas que importamos.
+*entonces quitamos el check en ambos y damos en state enter y vemos que se arreglo el problema del background.
+*por ultimo entramos al .emacs y vemos el agregado quote es propio de lenguaje lisp.
+video 3:
+M-x list package  Melp
+video4:
+* enter modo dired
+*C-x C-f + crea nuevo directorio   C-x C-f index.html crea archivo
+*regresamos al modo dired y si no se ve el archivo apretamos "g" para actualizar.
+*otro truco es apretar ! en index.html en el modo dired y escribimos firefox.
+*sino funciona el anterior podemos acer M-m f o y ara lo mismoa.
+*shift+c copiamos archivos
+ 

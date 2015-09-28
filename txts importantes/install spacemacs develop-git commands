@@ -1,0 +1,41 @@
+install spacemacs develop
+  git pull --rebase (nose que realiza)
+  git submodule sync; git submodule update  (nose que realiza)
+  472  sudo pkill emacs
+  473  rm -rf .emacs.d
+  474  cd ..
+  475  rm -rf .emacs.d
+  476  rm -rf .spacemacs
+  477  git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
+  478  sudo pkill emacs
+  479  rm -rf .emacs.d
+  480  git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
+  481  cd .emacs.d
+  482  git branch --all
+  483  git checkout develop
+  484  cleaR
+  485  CLEAR
+  486  clear
+
+
+
+git --version
+mkdir portafolio2
+echo "hola mundo" > index.html
+cat index.html
+git init
+git status
+git add -A
+git commit -m "mi primer commit"
+git checkout -b "gh-pages"
+git log
+git remote add origin https://github.com/???/portafolio.git
+ya nos conectamos
+git remote -v
+origin https://github.com/???/portafolio.git (fetch)
+origin https://github.com/???/portafolio.git (push)
+git push origin gh-pages
+
+segundo commit git add -A
+git commit -m "hice segundo commit"
+git push origin gh-pages

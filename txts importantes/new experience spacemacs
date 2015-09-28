@@ -1,0 +1,10 @@
+M-w kill-ring-save (copy)
+C-w kill(cut)
+C-y paste(pegar)
+
+C-x right (change next buffer)
+web mode:
+C-c-e c duplicate line
+C-c-e s select line
+C-j expand emmet
+

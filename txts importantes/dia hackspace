@@ -1,0 +1,16 @@
+/usr/share/icons/   path icons
+
+user:dev@hackspace.pe
+pass: developershackspace2015
+safaribooksonline.com
+
+*borra .emacs.d
+borra .spacemacs
+
+1- clona spacemacs
+git branch --all
+git checkout develop
+emacs -nw
+vim o emacs --> emacs
+modificar tus layers en .spacemacs
+

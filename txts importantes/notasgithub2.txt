@@ -1,0 +1,12 @@
+2 formas para github pages:
+*portafolio dominio completo:daisuketsu.github.io
+crear repositorio con el nombre del dominio "daisuketsu.github.io"
+subir a ese repositorio tu portafolio
+*proyectos dominio daisuketsu.github.io/proyecto1
+crear repositorio proyecto1
+una vez subido tu proyecto a branch master 
+crear un checkout -b "gh-pages"
+hacerle un push a ese branch y entrar al dominio
+
+
+*al hacer push via ssh despues del commit y conectar al github y claro despues de registrar la key solo poner "git push origin <branch>"

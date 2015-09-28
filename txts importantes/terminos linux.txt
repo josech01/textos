@@ -1,0 +1,16 @@
+coverglobus
+screenfetch
+plasma menu bar no trae  kubuntu 15
+Algunos temas de decoracion de ventanas no son compatibles para cambiar de tamaño los botones en la 15.04
+
+install htop "administrador recursos"
+lspci o lspci -nnk (nombre y id del fabricante del ethernet wireless y otros)
+wireless x552ld fabricante mediatek 
+buscamos en www.mediatek.com/en/downloads1/downloads/
+
+rfkill list all ( lista los dispositivos que podemos desactivar wifi )
+
+rfkill unblock 0
+rfkill unblock 4           bloquear
+
+ifconfig wlan0 up activar
