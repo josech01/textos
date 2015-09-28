@@ -1,1 +1,107 @@
-style.css
+@font-face{
+	font-family: "fuente1";
+	src: url('Mothproof_Script-webfont.eot');
+	src: url('Mothproof_Script-webfont.woff') format(''),
+		 url('$1') format('$1'),
+		 url('Mothproof_Script-webfont.ttf') format('truetype'),
+		 url('$1') format('$1');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	background: #000;
+	color: #EEE;
+	font-family: "Open Sans", Arial;
+	font-size: 16px;
+	text-align: center;
+}
+ 
+header{
+	  background: url("logo.png") no-repeat 95% center,
+    url("fondo.png");
+    background-size: 200px ,100px 100px;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0;
+    width: 100%;
+
+}
+
+header h1{
+    font-family: "fuente1";
+    margin: 0;
+    text-shadow: rgba(255,255,255,0.5) 5px 5px 10px;
+}
+
+header h2{
+    margin: 0;
+    font-weight: normal;
+    font-style: italic;
+    text-shadow: rgba(0,0,0,0.7) 2px 2px 5px;
+
+}
+
+nav{
+    background: rgba(60,60,180,0.8);
+    bottom: 0;
+    color: #EEE;
+    font-size: 1.5em;
+    left: 0;
+    padding: 1em 0;
+    position:fixed;
+    width: 100%;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    background: #F00;
+    border-radius: 0.5em;
+    color: white;
+    display: inline-block;
+    margin: 0em 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+nav li a:hover{
+    background: #FFF;
+    color: black;
+    transform: scale(1.2) rotate(-5deg);
+}
+
+#cochecito{
+    background: white;
+    width: 50%;
+    color: black;
+    text-align: left;
+}
+#cochecito figcaption{
+    margin: 1em;
+}
+
+#cochecito img{
+    width: 100%;
+}
+
+#cochecito, #history{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#history{
+    width: 40%;
+}
+
+
